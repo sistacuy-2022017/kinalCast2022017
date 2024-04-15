@@ -1,0 +1,147 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "channelsCast",
+    "dateExported": "2024-04-15T14:43:44.416Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "938296da-45c1-4674-bd88-a810ea26bd2f",
+            "colId": "dfba29bc-810a-4b26-a5e5-f54e366639b1",
+            "containerId": "",
+            "name": "findChanellById",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels/661d2f4063ca9191579b1fad",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-15T13:50:58.580Z",
+            "modified": "2024-04-15T13:51:25.954Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1700b65d-9e46-426c-a756-cdda53b441c4",
+            "colId": "dfba29bc-810a-4b26-a5e5-f54e366639b1",
+            "containerId": "",
+            "name": "listAllChannels",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-15T14:13:43.051Z",
+            "modified": "2024-04-15T14:13:58.379Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b4381abc-647e-45d4-95ae-e02c159b4db1",
+            "colId": "dfba29bc-810a-4b26-a5e5-f54e366639b1",
+            "containerId": "",
+            "name": "findChannel",
+            "url": "http://127.0.0.1:8080/twitch/v1/settings/channel",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-15T14:16:49.119Z",
+            "modified": "2024-04-15T14:19:55.038Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmY0MDYzY2E5MTkxNTc5YjFmYWYiLCJlbWFpbCI6Imluc2Fub0BnbWFpbC5jb20iLCJpYXQiOjE3MTMxOTA2MjgsImV4cCI6MTcxMzIxOTQyOH0.cMlUhkpAf1-O_g8jX8pgJ9uIij54zI19PkunoFOBvXM"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f11c8d5b-1a2b-4304-aa45-665fb49f298e",
+            "colId": "dfba29bc-810a-4b26-a5e5-f54e366639b1",
+            "containerId": "",
+            "name": "followChannel",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels/follow",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-04-15T14:24:47.185Z",
+            "modified": "2024-04-15T14:29:44.156Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmY0MDYzY2E5MTkxNTc5YjFmYWYiLCJlbWFpbCI6Imluc2Fub0BnbWFpbC5jb20iLCJpYXQiOjE3MTMxOTA2MjgsImV4cCI6MTcxMzIxOTQyOH0.cMlUhkpAf1-O_g8jX8pgJ9uIij54zI19PkunoFOBvXM"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"channelId\": \"661d2f4063ca9191579b1fad\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d3123b72-c63f-4443-8c2d-bb2edaf9f266",
+            "colId": "dfba29bc-810a-4b26-a5e5-f54e366639b1",
+            "containerId": "",
+            "name": "followedChannels",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels/followed",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-04-15T14:29:15.790Z",
+            "modified": "2024-04-15T14:30:22.810Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmY0MDYzY2E5MTkxNTc5YjFmYWYiLCJlbWFpbCI6Imluc2Fub0BnbWFpbC5jb20iLCJpYXQiOjE3MTMxOTA2MjgsImV4cCI6MTcxMzIxOTQyOH0.cMlUhkpAf1-O_g8jX8pgJ9uIij54zI19PkunoFOBvXM"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a3dcf0ff-49a0-4b6c-9ff4-a23530706961",
+            "colId": "dfba29bc-810a-4b26-a5e5-f54e366639b1",
+            "containerId": "",
+            "name": "updateSettingsChannel",
+            "url": "http://127.0.0.1:8080/twitch/v1/settings/channel",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-04-15T14:31:17.515Z",
+            "modified": "2024-04-15T14:36:01.083Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmY0MDYzY2E5MTkxNTc5YjFmYWYiLCJlbWFpbCI6Imluc2Fub0BnbWFpbC5jb20iLCJpYXQiOjE3MTMxOTA2MjgsImV4cCI6MTcxMzIxOTQyOH0.cMlUhkpAf1-O_g8jX8pgJ9uIij54zI19PkunoFOBvXM"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Brana\",\n  \"title\": \"Branna's channel\",\n  \"description\": \"hello everybody im brana\",\n  \"avatarUrl\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-xA1fNP4Zr0PAU_AZHIMgaTr-8ivlhNnrg6lpMe7tMw&s\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "288cf323-fd21-4bd7-882d-1d68fbbc41de",
+            "colId": "dfba29bc-810a-4b26-a5e5-f54e366639b1",
+            "containerId": "",
+            "name": "changePassword",
+            "url": "http://127.0.0.1:8080/twitch/v1/settings/password",
+            "method": "PATCH",
+            "sortNum": 70000,
+            "created": "2024-04-15T14:39:26.071Z",
+            "modified": "2024-04-15T14:42:58.130Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmY0MDYzY2E5MTkxNTc5YjFmYWYiLCJlbWFpbCI6Imluc2Fub0BnbWFpbC5jb20iLCJpYXQiOjE3MTMxOTA2MjgsImV4cCI6MTcxMzIxOTQyOH0.cMlUhkpAf1-O_g8jX8pgJ9uIij54zI19PkunoFOBvXM"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"123456\",\n  \"newPassword\": \"1234567\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
