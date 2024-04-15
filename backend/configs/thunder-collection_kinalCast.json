@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "kinalCast",
+    "dateExported": "2024-04-15T13:41:41.350Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "eade4022-b5d8-4242-9e50-f1041f29f6d3",
+            "colId": "b0e607b9-bd8a-4fea-b676-75a17be40ddd",
+            "containerId": "",
+            "name": "RegisterCast",
+            "url": "http://127.0.0.1:8080/twitch/v1/auth/register",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-15T13:39:17.700Z",
+            "modified": "2024-04-15T13:41:09.973Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"usarname\": \"insano\",\n  \"password\": \"123456\",\n  \"email\": \"insano@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
