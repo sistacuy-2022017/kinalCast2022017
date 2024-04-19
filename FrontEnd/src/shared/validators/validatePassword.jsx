@@ -1,7 +1,6 @@
 
-
 export const validatePassword = (  password ) => {
-  regex = /^\S{6,12}$/;
+  const regex = /^\S{6,12}$/;
 
   return regex.test(password);
 }

@@ -24,7 +24,7 @@ export const Input = ({
             <div className="auth-form-label">
                 <span>{label}</span>
             </div>
-            <div>
+            
                 {textArea ? (
                     <textarea 
                         type={type}
@@ -45,7 +45,7 @@ export const Input = ({
                 <span className="auth-form-validation-message">
                     { showErrorMesagge && validationMessage }
                 </span>
-            </div>
+            
         </>
     )
 }
